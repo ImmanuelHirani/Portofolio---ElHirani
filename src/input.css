@@ -5,11 +5,11 @@
 
 @layer base {
     html {
-        @apply scroll-smooth overflow-x-hidden 
+        @apply scroll-smooth 
     }
     
     body {
-        @apply bg-[#272829] font-Poppins  
+        @apply bg-[#272829] font-Poppins  overflow-x-hidden 
     }
 
     section {
@@ -46,6 +46,6 @@
     }
 
     h6 {
-        @apply md:text-lg text-xs 
+        @apply md:text-lg text-sm
     }
 }

@@ -435,11 +435,11 @@ video {
 }
 
 html {
-  overflow-x: hidden;
   scroll-behavior: smooth;
 }
 
 body {
+  overflow-x: hidden;
   --tw-bg-opacity: 1;
   background-color: rgb(39 40 41 / var(--tw-bg-opacity));
   font-family: Poppins, sans-serif;
@@ -747,8 +747,8 @@ h2 {
 }
 
 h6 {
-  font-size: 0.75rem;
-  line-height: 1rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 @media (min-width: 768px) {
