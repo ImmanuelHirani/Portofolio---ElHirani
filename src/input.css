@@ -5,7 +5,11 @@
 
 @layer base {
     html {
-        @apply scroll-smooth 
+        -webkit-tap-highlight-color: transparent;   
+    }
+
+    html {
+        @apply scroll-smooth
     }
     
     body {
