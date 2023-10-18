@@ -673,9 +673,8 @@ section {
   overflow: hidden;
 }
 
-.px-0 {
-  padding-left: 0px;
-  padding-right: 0px;
+.overflow-y-hidden {
+  overflow-y: hidden;
 }
 
 .text-center {
@@ -804,10 +803,6 @@ h6 {
   .md\:gap-6 {
     gap: 1.5rem;
   }
-
-  .md\:overflow-visible {
-    overflow: visible;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -821,15 +816,6 @@ h6 {
 
   .lg\:place-content-end {
     place-content: end;
-  }
-
-  .lg\:overflow-visible {
-    overflow: visible;
-  }
-
-  .lg\:px-4 {
-    padding-left: 1rem;
-    padding-right: 1rem;
   }
 
   .lg\:text-justify {
