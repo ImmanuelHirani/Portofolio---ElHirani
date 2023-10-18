@@ -9,7 +9,7 @@
     }
     
     body {
-        @apply bg-[#272829] font-Poppins  overflow-x-hidden 
+        @apply bg-[#000000] font-Poppins  overflow-x-hidden 
     }
 
     section {
