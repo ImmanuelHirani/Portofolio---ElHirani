@@ -4,51 +4,143 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/output.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Portofolio | Immanuel - Hirani</title>
   </head>
   <body>
-    <section class="hero overflow-hidden">
-      <div class="container grid lg:grid-cols-2 grid-cols-1 gap-2 items-center ">
-        <div class="hero-decs flex flex-col md:gap-6 gap-3 lg:text-start text-center">
-          <h2 class="text-Green-saber">Hi, I'm Immanuel Christian Hirani</h2>
-          <h1  class="text-white lg:text-justify text-center  md:h-28 h-24">
-            A Junior Developer Who, 
-            <span id="text"></span>
-          </h1>
-          <h6 class="text-white font-medium text-justify">
-            I am a passionate and ambitious Junior Developer who thrives on the
-            pursuit of exciting and challenging projects. With a strong
-            foundation in coding and a drive to continuously learn and grow, I
-            am always on the lookout for opportunities that push the boundaries
-            of my skills and knowledge. Armed with a keen eye for detail and a
-            knack for problem-solving, I approach each project with enthusiasm
-            and a determination to deliver exceptional quickly to new am ready
-            to embark on new adventures and contribute to innovative projects,
-            as I am poised to make a significant impact in the world of software
-            development.
-          </h6>
-        </div>
-        <div  id="scroll-trigger" class="hero-img w-full flex items-end lg:place-content-end place-content-center relative group cursor-pointer">
-          <img src="img/Hero/Hero-Img.png" class="w-1/2 relative 3xl:right-20 2xl:right-14" alt="#immanuelHirani">
-          <div class="flex absolute -z-10 lg:left-52 inset-y-0 place-content-center ">
-            <svg
-              xmlns="http://www.w3.org/2000/svg" class="md:w-full w-1/2 group-hover:-translate-x-20 group-hover:translate-y-20 group-hover:-rotate-180 transition-all ease-in-out duration-300" viewBox="0 0 248 239" fill="none">
-              <path d="M243.915 108.342C252.238 77.1186 235.412 45.2101 210.121 28.5387C178.689 7.83537 132.768 -2.69393 95.5667 4.43577C50.4611 13.0852 26.5737 52.0841 14.7947 94.1966C5.10526 128.837 -16.0375 221.218 34.0467 235.336C71.2703 245.834 90.0637 197.918 113.706 178.745C130.549 165.112 147.654 164.574 168.47 164.855C204.235 165.314 234.34 144.293 243.915 108.342Z" stroke="#B8B8B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="transparent"/>
-              <path d="M90.2977 2.91657C121.224 -3.03953 159.512 5.22037 186.552 23.0579C211.03 39.1979 224.424 68.8683 217.067 96.4937C208.513 128.585 181.322 148.605 148.301 148.192C129.377 147.951 121.728 149.496 113.071 156.522C109.66 159.292 106.27 163.068 100.437 170.356L96.7297 174.979C77.4337 199.024 63.6042 208.359 41.9134 202.243C18.6405 195.67 9.10076 173.885 9.35936 143.2C9.53126 123.387 13.5959 101.562 19.6437 79.9537C31.3168 38.231 54.3623 9.82167 90.3117 2.90887L90.2977 2.91657Z" fill="#0C8335"/>
-              <path d="M131.73 65.5C134.575 54.8262 128.823 43.9182 120.177 38.219C109.432 31.1415 93.7337 27.542 81.0167 29.9793C65.5966 32.9361 57.4306 46.2681 53.4039 60.6645C50.0915 72.5064 42.8638 104.087 59.9853 108.914C72.7103 112.502 79.135 96.1219 87.2167 89.5679C92.9747 84.9069 98.8227 84.7229 105.939 84.8189C118.165 84.9759 128.457 77.7899 131.73 65.5Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-              <path d="M52.2737 182.493C64.7001 182.493 74.7737 172.419 74.7737 159.993C74.7737 147.566 64.7001 137.493 52.2737 137.493C39.8473 137.493 29.7737 147.566 29.7737 159.993C29.7737 172.419 39.8473 182.493 52.2737 182.493Z" stroke="white" stroke-width="4" />
-            </svg>
-            <svg  xmlns="http://www.w3.org/2000/svg"  class="md:w-full w-1/2 group-hover:translate-x-20 group-hover:-translate-y-20 group-hover:rotate-180 transition-all ease-in-out duration-300"  viewBox="0 0 248 239"  fill="none">
-              <path  d="M3.67326 108.083C-4.64924 76.8601 12.1769 44.9514 37.4678 28.2799C68.8995 7.57658 114.821 -2.95272 152.021 4.17698C197.127 12.8264 221.014 51.8254 232.793 93.9381C242.483 128.578 263.626 220.958 213.541 235.077C176.318 245.575 157.524 197.659 133.883 178.485C117.04 164.853 99.934 164.315 79.118 164.596C43.354 165.055 13.2482 144.034 3.67326 108.083Z"  stroke="#B8B8B8"  stroke-width="3"  stroke-linecap="round"  stroke-linejoin="round" fill="transparent"/>
-              <path  d="M156.324 2.91653C125.399 -3.03947 87.111 5.22033 60.0704 23.0578C35.5924 39.1979 22.1985 68.8683 29.5559 96.4941C38.1096 128.584 65.3003 148.604 98.322 148.192C117.246 147.951 124.894 149.496 133.551 156.521C136.963 159.292 140.352 163.067 146.186 170.355L149.892 174.978C169.189 199.023 183.018 208.358 204.709 202.243C227.982 195.67 237.521 173.884 237.263 143.199C237.091 123.387 233.026 101.562 226.979 79.9541C215.305 38.2309 192.26 9.82163 156.311 2.90893L156.324 2.91653Z"  fill="#B8B8B8"/>
-              <path  d="M193.5 182.234C205.926 182.234 216 172.16 216 159.734C216 147.307 205.926 137.234 193.5 137.234C181.074 137.234 171 147.307 171 159.734C171 172.16 181.074 182.234 193.5 182.234Z"  stroke="white"  stroke-width="4"/>
-              <path  d="M113.725 65.2412C110.88 54.5674 116.632 43.6594 125.278 37.9602C136.023 30.8827 151.722 27.2832 164.439 29.7205C179.858 32.6773 188.024 46.0093 192.051 60.4057C195.364 72.2476 202.591 103.828 185.47 108.655C172.745 112.243 166.32 95.8631 158.238 89.3091C152.48 84.6481 146.633 84.4641 139.517 84.5601C127.29 84.7171 116.999 77.5311 113.725 65.2412Z"  stroke="white"  stroke-width="4"  stroke-linecap="round"  stroke-linejoin="round"/>
-            </svg>
+    <header id="navContainer" class="navbar py-4 fixed inset-x-0 top-0 z-10 transition-all ease-in-out duration-300 bg-opacity-90 bg-Black-Nav">
+      <nav class="container text-white font-semibold relative ">
+        <ul class="flex items-center text-lg justify-between">
+          <li class="">
+            <a class="flex items-center gap-4 " href="">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-7" viewBox="0 0 21 22" fill="none">
+                <path d="M5 16.5V6.5C5 5.67157 5.67157 5 6.5 5C7.32843 5 8 5.67157 8 6.5V8C8 9.10457 8.89543 10 10 10H11C12.1046 10 13 9.10457 13 8V6.5C13 5.67157 13.6716 5 14.5 5C15.3284 5 16 5.67157 16 6.5V16.5C16 17.3284 15.3284 18 14.5 18C13.6716 18 13 17.3284 13 16.5V15C13 13.8954 12.1046 13 11 13H10C8.89543 13 8 13.8954 8 15V16.5C8 17.3284 7.32843 18 6.5 18C5.67157 18 5 17.3284 5 16.5Z" fill="#0C8335"/>
+                <path d="M19 0.5L13.5 0.5C12.6716 0.5 12 1.17157 12 2C12 2.82843 12.6716 3.5 13.5 3.5H15.5C16.6046 3.5 17.5 4.39543 17.5 5.5V11.25C17.5 12.2165 18.2835 13 19.25 13C20.2165 13 21 12.2165 21 11.25V2.5C21 1.39543 20.1046 0.5 19 0.5Z" fill="#0C8335"/>
+                <path d="M2 0.5L7.5 0.5C8.32843 0.5 9 1.17157 9 2C9 2.82843 8.32843 3.5 7.5 3.5H5.5C4.39543 3.5 3.5 4.39543 3.5 5.5L3.5 11.25C3.5 12.2165 2.7165 13 1.75 13C0.783502 13 0 12.2165 0 11.25L0 2.5C0 1.39543 0.895431 0.5 2 0.5Z" fill="#0C8335"/>
+                <path d="M19 22L2 22C0.895431 22 -3.91405e-08 21.1046 -8.74228e-08 20L-2.72292e-07 15.7707C-3.12808e-07 14.8438 0.8323 14.1387 1.7466 14.2911C2.46988 14.4116 3 15.0374 3 15.7707L3 17.5C3 18.6046 3.89543 19.5 5 19.5L7.38462 19.5C8.48919 19.5 9.38462 18.6046 9.38462 17.5L9.38462 15.4305C9.38462 14.8769 9.86879 14.4434 10.4202 14.4928C10.4728 14.4976 10.5265 14.4974 10.579 14.4921C11.0721 14.4428 11.5 14.83 11.5 15.3256L11.5 17.5C11.5 18.6046 12.3954 19.5 13.5 19.5L16 19.5C17.1046 19.5 18 18.6046 18 17.5L18 15.7707C18 15.0374 18.5301 14.4116 19.2534 14.2911C20.1677 14.1387 21 14.8438 21 15.7707L21 20C21 21.1046 20.1046 22 19 22Z" fill="#0C8335"/>
+                <circle cx="10.5" cy="7.5" r="1.5" fill="#0C8335"/>
+              </svg>
+              immanuel Hirani
+            </a>
+          </li>
+          <button id="navBurger" class="md:hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" class=" w-7" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path class="transition-all ease-in-out duration-200 origin-top-left" d="M4 6l16 0"></path>
+              <path class="transition-all ease-in-out duration-75" d="M4 12l16 0"></path>
+              <path class="transition-all ease-in-out duration-200 origin-bottom-left" d="M4 18l16 0"></path>
+           </svg>
+          </button>
+          <li id="navLinks" class="transition-all ease-in-out duration-200 flex md:relative md:z-10 -z-20 absolute md:flex-row flex-col md:gap-12 gap-y-4 md:top-0 md:translate-y-0 top-7 md:opacity-100 opacity-0  md:right-0 md:translate-x-0 right-1/2 translate-x-1/2 text-center ">
+            <a href="#">Project</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="mt-32">
+      <section class="hero overflow-hidden">
+        <div class="container grid lg:grid-cols-2 grid-cols-1 gap-2 items-center ">
+          <div class="hero-decs flex flex-col md:gap-6 gap-3 lg:text-start text-center">
+            <h2 class="text-Green-saber">Hi, I'm Immanuel Christian Hirani</h2>
+            <h1  class="text-white lg:text-justify text-center  md:h-28 h-24">
+              A Junior Developer Who, 
+              <span id="text"></span>
+            </h1>
+            <h6 class="text-white font-medium text-justify">
+              I am a passionate and ambitious Junior Developer who thrives on the
+              pursuit of exciting and challenging projects. With a strong
+              foundation in coding and a drive to continuously learn and grow, I
+              am always on the lookout for opportunities that push the boundaries
+              of my skills and knowledge. Armed with a keen eye for detail and a
+              knack for problem-solving, I approach each project with enthusiasm
+              and a determination to deliver exceptional quickly to new am ready
+              to embark on new adventures and contribute to innovative projects,
+              as I am poised to make a significant impact in the world of software
+              development.
+            </h6>
+            <div class="related-links text-white flex md:flex-row flex-col items-center gap-x-8 gap-y-4">
+              <button class="bg-Green-saber px-8 py-3 rounded-sm flex items-center gap-2 font-semibold hover:bg-transparent hover:outline hover:outline-2 hover:outline-white   transition-all ease-in-out duration-75">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mouse w-7"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 3m0 4a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v10a4 4 0 0 1 -4 4h-4a4 4 0 0 1 -4 -4z"></path>
+                  <path d="M12 7l0 4" class="animate-mosueBounce"></path>
+               </svg>
+                Explore
+              </button>
+              <div class="sosial-club flex gap-8">
+                <a href="">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-8" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9"></path>
+                    <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1"></path>
+                 </svg>
+                </a>
+                <a href="">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-8"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z"></path>
+                    <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0"></path>
+                    <path d="M16.5 7.5l0 .01"></path>
+                 </svg>
+                </a>
+                <a href="">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="w-8"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+                 </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div  class="hero-img w-full flex items-end lg:place-content-end place-content-center relative group">
+            <img src="img/Hero/Hero-Img.png" class="w-1/2 relative 3xl:right-20 2xl:right-14 xl:right-10" alt="#immanuelHirani">
+            <div class="flex absolute -z-10 lg:left-52 inset-y-0 place-content-center ">
+              <!-- group-hover:-translate-x-20 group-hover:translate-y-20 group-hover:-rotate-180 -->
+              <svg xmlns="http://www.w3.org/2000/svg" id="left-wing" class="md:w-full w-1/2  transition-all ease-in-out duration-300" viewBox="0 0 248 239" fill="none">
+                <path d="M243.915 108.342C252.238 77.1186 235.412 45.2101 210.121 28.5387C178.689 7.83537 132.768 -2.69393 95.5667 4.43577C50.4611 13.0852 26.5737 52.0841 14.7947 94.1966C5.10526 128.837 -16.0375 221.218 34.0467 235.336C71.2703 245.834 90.0637 197.918 113.706 178.745C130.549 165.112 147.654 164.574 168.47 164.855C204.235 165.314 234.34 144.293 243.915 108.342Z" stroke="#B8B8B8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="transparent"/>
+                <path d="M90.2977 2.91657C121.224 -3.03953 159.512 5.22037 186.552 23.0579C211.03 39.1979 224.424 68.8683 217.067 96.4937C208.513 128.585 181.322 148.605 148.301 148.192C129.377 147.951 121.728 149.496 113.071 156.522C109.66 159.292 106.27 163.068 100.437 170.356L96.7297 174.979C77.4337 199.024 63.6042 208.359 41.9134 202.243C18.6405 195.67 9.10076 173.885 9.35936 143.2C9.53126 123.387 13.5959 101.562 19.6437 79.9537C31.3168 38.231 54.3623 9.82167 90.3117 2.90887L90.2977 2.91657Z" fill="#0C8335"/>
+                <path d="M131.73 65.5C134.575 54.8262 128.823 43.9182 120.177 38.219C109.432 31.1415 93.7337 27.542 81.0167 29.9793C65.5966 32.9361 57.4306 46.2681 53.4039 60.6645C50.0915 72.5064 42.8638 104.087 59.9853 108.914C72.7103 112.502 79.135 96.1219 87.2167 89.5679C92.9747 84.9069 98.8227 84.7229 105.939 84.8189C118.165 84.9759 128.457 77.7899 131.73 65.5Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M52.2737 182.493C64.7001 182.493 74.7737 172.419 74.7737 159.993C74.7737 147.566 64.7001 137.493 52.2737 137.493C39.8473 137.493 29.7737 147.566 29.7737 159.993C29.7737 172.419 39.8473 182.493 52.2737 182.493Z" stroke="white" stroke-width="4" />
+              </svg>
+              <!-- group-hover:translate-x-20 group-hover:-translate-y-20 group-hover:rotate-180 -->
+              <svg  xmlns="http://www.w3.org/2000/svg"  id="right-wing" class="md:w-full w-1/2  transition-all ease-in-out duration-300"  viewBox="0 0 248 239"  fill="none">
+                <path  d="M3.67326 108.083C-4.64924 76.8601 12.1769 44.9514 37.4678 28.2799C68.8995 7.57658 114.821 -2.95272 152.021 4.17698C197.127 12.8264 221.014 51.8254 232.793 93.9381C242.483 128.578 263.626 220.958 213.541 235.077C176.318 245.575 157.524 197.659 133.883 178.485C117.04 164.853 99.934 164.315 79.118 164.596C43.354 165.055 13.2482 144.034 3.67326 108.083Z"  stroke="#B8B8B8"  stroke-width="3"  stroke-linecap="round"  stroke-linejoin="round" fill="transparent"/>
+                <path  d="M156.324 2.91653C125.399 -3.03947 87.111 5.22033 60.0704 23.0578C35.5924 39.1979 22.1985 68.8683 29.5559 96.4941C38.1096 128.584 65.3003 148.604 98.322 148.192C117.246 147.951 124.894 149.496 133.551 156.521C136.963 159.292 140.352 163.067 146.186 170.355L149.892 174.978C169.189 199.023 183.018 208.358 204.709 202.243C227.982 195.67 237.521 173.884 237.263 143.199C237.091 123.387 233.026 101.562 226.979 79.9541C215.305 38.2309 192.26 9.82163 156.311 2.90893L156.324 2.91653Z"  fill="#B8B8B8"/>
+                <path  d="M193.5 182.234C205.926 182.234 216 172.16 216 159.734C216 147.307 205.926 137.234 193.5 137.234C181.074 137.234 171 147.307 171 159.734C171 172.16 181.074 182.234 193.5 182.234Z"  stroke="white"  stroke-width="4"/>
+                <path  d="M113.725 65.2412C110.88 54.5674 116.632 43.6594 125.278 37.9602C136.023 30.8827 151.722 27.2832 164.439 29.7205C179.858 32.6773 188.024 46.0093 192.051 60.4057C195.364 72.2476 202.591 103.828 185.47 108.655C172.745 112.243 166.32 95.8631 158.238 89.3091C152.48 84.6481 146.633 84.4641 139.517 84.5601C127.29 84.7171 116.999 77.5311 113.725 65.2412Z"  stroke="white"  stroke-width="4"  stroke-linecap="round"  stroke-linejoin="round"/>
+              </svg>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   </body>
+  <script>
+    var lfw = document.getElementById("left-wing");
+    var rtw = document.getElementById("right-wing");
+    
+    window.addEventListener("scroll", function () {
+      if (window.innerWidth >= 768) { // Cek apakah layar SM atau lebih besar
+        if (window.pageYOffset > 10) {
+          lfw.classList.add("left-wing-active");
+          rtw.classList.add("right-wing-active");
+        } else {
+          lfw.classList.remove("left-wing-active");
+          rtw.classList.remove("right-wing-active");
+        }
+      } else { // Untuk ukuran MD atau yang lebih kecil
+        if (window.pageYOffset > 200) {
+          lfw.classList.add("left-wing-active");
+          rtw.classList.add("right-wing-active");
+        } else {
+          lfw.classList.remove("left-wing-active");
+          rtw.classList.remove("right-wing-active");
+        }
+      }
+    });
+  </script>
+  
   <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
   <script src="js/Typing-Text.js"></script>
+  <script src="js/nav.js"></script>
 </html>
