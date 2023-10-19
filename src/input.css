@@ -29,6 +29,9 @@
 
 }
 
+.Box-Active {
+        @apply scale-100 z-10
+    }
     
 .navCont-Active {
     @apply pb-40  bg-Black-Nav 
@@ -55,6 +58,8 @@
 
 
 @layer utilities {
+
+
 
     .left-wing-active {
       @apply  -translate-x-20 translate-y-20 -rotate-180

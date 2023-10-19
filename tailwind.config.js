@@ -9,6 +9,12 @@ module.exports = {
 
     extend: {
 
+      backgroundImage: {
+        "contact-us-bg":
+          "url('/img/Project-Img/bg-Contactus.png')",
+
+      },
+
       keyframes: {
         mousebc: {
           '0%, 100%': {

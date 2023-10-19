@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/output.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
     <title>Portofolio | Immanuel - Hirani</title>
   </head>
   <body>
@@ -33,7 +38,7 @@
           <li id="navLinks" class="transition-all ease-in-out duration-200 flex md:relative md:z-10 -z-20 absolute md:flex-row flex-col md:gap-12 gap-y-4 md:top-0 md:translate-y-0 top-7 md:opacity-100 opacity-0  md:right-0 md:translate-x-0 right-1/2 translate-x-1/2 text-center ">
             <a href="#">Project</a>
             <a href="#">Blog</a>
-            <a href="#">Contact</a>
+            <a href="#ContactMe">Contact</a>
           </li>
         </ul>
       </nav>
@@ -177,12 +182,119 @@
         </div>
         <img class="absolute lg:top-2 top-4 -z-10 right-0 lg:w-fit md:w-96 w-60" src="img/Project-Img/Project-Font.png" alt="">
       </section>
+      <section class="contact" id="ContactMe">
+        <div class="container rounded-md p-0 text-white relative" style="background: rgb(10,10,10); background: linear-gradient(90deg, rgba(10,10,10,0.9108018207282913) 0%, rgba(9,9,9,1) 100%);">
+          <div class="body md:text-start text-center bg-white bg-opacity-5 p-12 flex flex-col gap-4 py-20">
+            <h2 class="animate-bounce">Interested working with me? </h2>
+            <p>For business purposes, please contact via email only ,<br> Thank u for visiting my Website .</p>
+            <button id="OpenBoxContact" class="bg-Green-saber w-fit md:mx-0 md:mt-4 mx-auto py-2 px-8 rounded-full lg:hidden block">Send Message?</button>
+          </div>
+          <div class="footer flex flex-col gap-4 py-6 p-12 bg-contact-us-bg object-cover object-center  relative ">
+            <div class="bg-Black-Nav w-full absolute inset-0 bg-opacity-50"></div>
+            <span class="flex items-center gap-6 text-lg z-10">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail w-8"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10z"></path>
+                <path d="M3 7l9 6l9 -6"></path>
+             </svg>
+             nuel.hirani8@gmail.com
+            </span>
+            <span class="flex items-center gap-6 text-lg z-10">
+              <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github  w-8" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path>
+             </svg>
+             ImmanuelHirani
+            </span>
+          </div>
+          <div id="ContactBox" class=" transition-all ease-in-out duration-300 rounded-md absolute lg:bottom-1/2 lg:translate-y-1/2 lg:translate-x-1/2 lg:right-96 bg-white w-fit py-10 lg:px-20 px-10 bottom-0 translate-x-1/2 right-1/2 text-black flex lg:scale-100 flex-col gap-4 scale-0">  
+            <h2 class="md:text-xl text-base animate-bounce">Contact Me ?</h2>
+              <form class="flex flex-col gap-4" action="">
+                <input type="text" class="outline-none bg-slate-100 p-4 rounded-md" placeholder="Your name">
+                <input type="text" class="outline-none bg-slate-100 p-4 rounded-md" placeholder="Email Address">
+                <textarea placeholder="Type Message" class="outline-none bg-slate-100 p-4 rounded-md" name="" id="" cols="30" rows="5"></textarea>
+                <button class="bg-Green-saber w-fit py-2 px-12 mx-auto text-white rounded-full">
+                  Send now
+                </button>
+              </form>
+              <svg id="CloseBoxContact" xmlns="http://www.w3.org/2000/svg" class="lg:hidden absolute right-5 top-5 hover:text-red-500 cursor-pointer" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M18 6l-12 12"></path>
+                <path d="M6 6l12 12"></path>
+             </svg>
+          </div>
+        </div>
+      </section>
+      <section class="Testimonial lg:mt-40 md:mt-32 mt-10 relative ">
+        <div class="container md:p-3 p-0">
+          <h2 class="text-white text-center md:mb-16 mb-8">What's Our Client Says ? 
+            <hr class="border-4 border-white w-20 mt-5 mx-auto">
+          </h2>
+          <div class="swiper">
+            <div class="testimonial-Content">
+              <div class="swiper-wrapper md:text-base text-xs">
+                <div class="swiper-slide  ">
+                  <div class="div h-56 bg-Black-Nav bg-opacity-80 flex rounded-md text-white border-2 border-Green-saber p-2">
+                    <img src="img/TestiMonial-Img/Person-1.jpg" class="md:w-52 w-32 object-cover " alt="">
+                    <div class="desc px-6 py-4 text-justify  flex flex-col gap-4 ">
+                      <p class="p-2   bg-Green-saber w-fit rounded-md font-semibold">Immanuel Christian Hirani</p>
+                      <p class="font-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis obcaecati perferendis aliquam porro. Possimus ipsam debitis, assumenda eaque in esse.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide  ">
+                  <div class="div h-56 bg-Black-Nav bg-opacity-80 flex rounded-md text-white border-2 border-Green-saber p-2">
+                    <img src="img/TestiMonial-Img/Person-1.jpg" class="md:w-52 w-32 object-cover " alt="">
+                    <div class="desc px-6 py-4 text-justify  flex flex-col gap-4 ">
+                      <p class="p-2   bg-Green-saber w-fit rounded-md font-semibold">Immanuel Christian Hirani</p>
+                      <p class="font-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis obcaecati perferendis aliquam porro. Possimus ipsam debitis, assumenda eaque in esse.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide  ">
+                  <div class="div h-56 bg-Black-Nav bg-opacity-80 flex rounded-md text-white border-2 border-Green-saber p-2">
+                    <img src="img/TestiMonial-Img/Person-1.jpg" class="md:w-52 w-32 object-cover " alt="">
+                    <div class="desc px-6 py-4 text-justify  flex flex-col gap-4 ">
+                      <p class="p-2   bg-Green-saber w-fit rounded-md font-semibold">Immanuel Christian Hirani</p>
+                      <p class="font-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis obcaecati perferendis aliquam porro. Possimus ipsam debitis, assumenda eaque in esse.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide  ">
+                  <div class="div h-56 bg-Black-Nav bg-opacity-80 flex rounded-md text-white border-2 border-Green-saber p-2">
+                    <img src="img/TestiMonial-Img/Person-1.jpg" class="md:w-52 w-32 object-cover " alt="">
+                    <div class="desc px-6 py-4 text-justify  flex flex-col gap-4 ">
+                      <p class="p-2   bg-Green-saber w-fit rounded-md font-semibold">Immanuel Christian Hirani</p>
+                      <p class="font-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis obcaecati perferendis aliquam porro. Possimus ipsam debitis, assumenda eaque in esse.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-custom-nav absolute top-1/2 translate-y-1/2 left-0 z-10 flex inset-x-0 justify-between lg:px-5 md:px-3 ">
+          <svg id="prev" xmlns="http://www.w3.org/2000/svg" class="md:w-16 w-10 text-white opacity-70 hover:opacity-100"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M12 2a10 10 0 0 1 .324 19.995l-.324 .005l-.324 -.005a10 10 0 0 1 .324 -19.995zm.707 5.293a1 1 0 0 0 -1.414 0l-4 4a1.048 1.048 0 0 0 -.083 .094l-.064 .092l-.052 .098l-.044 .11l-.03 .112l-.017 .126l-.003 .075l.004 .09l.007 .058l.025 .118l.035 .105l.054 .113l.043 .07l.071 .095l.054 .058l4 4l.094 .083a1 1 0 0 0 1.32 -1.497l-2.292 -2.293h5.585l.117 -.007a1 1 0 0 0 -.117 -1.993h-5.586l2.293 -2.293l.083 -.094a1 1 0 0 0 -.083 -1.32z" stroke-width="0" fill="currentColor"></path>
+         </svg>
+         <svg id="next" xmlns="http://www.w3.org/2000/svg" class="md:w-16 w-10 text-white opacity-70 hover:opacity-100"  viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+          <path d="M12 2l.324 .005a10 10 0 1 1 -.648 0l.324 -.005zm.613 5.21a1 1 0 0 0 -1.32 1.497l2.291 2.293h-5.584l-.117 .007a1 1 0 0 0 .117 1.993h5.584l-2.291 2.293l-.083 .094a1 1 0 0 0 1.497 1.32l4 -4l.073 -.082l.064 -.089l.062 -.113l.044 -.11l.03 -.112l.017 -.126l.003 -.075l-.007 -.118l-.029 -.148l-.035 -.105l-.054 -.113l-.071 -.111a1.008 1.008 0 0 0 -.097 -.112l-4 -4z" stroke-width="0" fill="currentColor"></path>
+       </svg>
+        </div>
+      </section>
     </main>
   </body>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="js/swiper.js"></script>  
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+  <script src="js/Typing-Text.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/ContactUs.js"></script>
   <script>
     var lfw = document.getElementById("left-wing");
     var rtw = document.getElementById("right-wing");
-    
     window.addEventListener("scroll", function () {
       if (window.innerWidth >= 768) { // Cek apakah layar SM atau lebih besar
         if (window.pageYOffset > 10) {
@@ -203,8 +315,4 @@
       }
     });
   </script>
-  
-  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-  <script src="js/Typing-Text.js"></script>
-  <script src="js/nav.js"></script>
 </html>
