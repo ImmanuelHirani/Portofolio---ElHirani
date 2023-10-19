@@ -2,7 +2,7 @@ let TestimonialSwiper = new Swiper(".testimonial-Content", {
     slidesPerView: 1,
   
     loop:true,
-    spaceBetween:10,
+    spaceBetween:16,
     grabCursor: true,
     // If we need pagination
   
