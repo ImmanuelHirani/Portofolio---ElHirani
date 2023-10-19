@@ -11,7 +11,7 @@ module.exports = {
 
       backgroundImage: {
         "contact-us-bg":
-          "url('/img/Project-Img/bg-Contactus.png')",
+          "url('../img/Project-Img/bg-Contactus.png')",
 
       },
 
