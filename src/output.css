@@ -671,6 +671,10 @@ section {
   top: 1.75rem;
 }
 
+.bottom-1\/2 {
+  bottom: 50%;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -948,6 +952,11 @@ section {
   background-color: rgb(17 175 71 / var(--tw-bg-opacity));
 }
 
+.bg-red-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+}
+
 .bg-slate-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
@@ -1010,6 +1019,10 @@ section {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
 }
 
 .px-2 {
@@ -1524,6 +1537,10 @@ h6 {
 
   .lg\:top-2 {
     top: 0.5rem;
+  }
+
+  .lg\:right-0 {
+    right: 0px;
   }
 
   .lg\:mt-20 {
