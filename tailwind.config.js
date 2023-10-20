@@ -16,6 +16,10 @@ module.exports = {
       },
 
       keyframes: {
+        'infinite-scroll': {
+          from: { transform: 'translateX(0)' },
+          to: { transform: 'translateX(-100%)' },
+      },
         mousebc: {
           '0%, 100%': {
             transform: 'translateY(0)',
@@ -28,6 +32,7 @@ module.exports = {
 
       animation: {
         mosueBounce: 'mousebc 1s infinite',
+        'infinite-scroll': 'infinite-scroll 25s linear infinite',
       },
 
       fontFamily: {
