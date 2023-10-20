@@ -184,10 +184,10 @@
         <img class="absolute lg:top-2 top-4 -z-10 right-0 lg:w-fit md:w-96 w-60" src="img/Project-Img/Project-Font.png" alt="">
       </section>
       <section class="Skills"></section>
-      <section class="contact overflow-x-hidden" id="ContactMe">
+      <section class="contact " id="ContactMe">
         <div class="container rounded-md p-0 text-white relative" style="background: rgb(10,10,10); background: linear-gradient(90deg, rgba(10,10,10,0.9108018207282913) 0%, rgba(9,9,9,1) 100%);">
           <div class="body md:text-start text-center bg-white bg-opacity-5 p-12 flex flex-col gap-4 py-20">
-            <h2 class="animate-bounce">Interested working with me? </h2>
+            <h2>Interested working with me? </h2>
             <p>For business purposes, please contact via email only ,<br> Thank u for visiting my Website .</p>
             <button id="OpenBoxContact" class="bg-Green-saber w-fit md:mx-0 md:mt-4 mx-auto py-2 px-8 rounded-full lg:hidden block md:text-base text-sm">Send Message?</button>
           </div>
@@ -209,13 +209,19 @@
              ImmanuelHirani
             </span>
           </div>
-          <div class="p-4 absolute top-0 right-1/2 translate-x-1/2 w-[95%] bg-white z-10" id="ContactBox">
-              <form class="flex flex-col gap-3" action="">
-                <h2 class="text-black lg:text-xl">Contact Me ?</h2>
-                <input type="text" class="outline-none px-4 py-2 bg-slate-200 bg-opacity-60" placeholder="Your Name">
-                <input type="text" class="outline-none px-4 py-2 bg-slate-200 bg-opacity-60" placeholder="Email Address">
-                <textarea name="" id="" class="outline-none px-4 py-2 bg-slate-200 bg-opacity-60" cols="20" rows="10" placeholder="Type Message"></textarea>
+          <div id="ContactBox" class="transition-all ease-in-out duration-300 p-6 absolute bottom-1/2 translate-y-1/2 lg:right-96 right-1/2 translate-x-1/2 lg:w-[30%] w-[95%] bg-white z-20 lg:scale-100 scale-0">
+              <form class="flex flex-col gap-3 text-black" action="">
+                <h2 class="text-black lg:text-xl animate-bounce">Contact Me ?</h2>
+                <input type="text" class="outline-none md:p-4 p-2 bg-slate-100 " placeholder="Your Name">
+                <input type="text" class="outline-none md:p-4 p-2 bg-slate-100 " placeholder="Email Address">
+                <textarea name="" id="" class="outline-none md:p-4 p-2 bg-slate-100 " cols="20" rows="10" placeholder="Type Message"></textarea>
+                <button class="bg-Green-saber py-2 md:px-12 px-6 rounded-full text-white font-semibold w-fit mx-auto">Send Message</button>
               </form>
+                <svg id="CloseBoxContact" xmlns="http://www.w3.org/2000/svg" class=" hover:text-red-500 text-black absolute top-5 right-5" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <path d="M18 6l-12 12"></path>
+                  <path d="M6 6l12 12"></path>
+               </svg>
           </div>
         </div>
       </section>
