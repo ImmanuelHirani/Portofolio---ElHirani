@@ -675,6 +675,10 @@ section {
   bottom: 50%;
 }
 
+.right-96 {
+  right: 24rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
