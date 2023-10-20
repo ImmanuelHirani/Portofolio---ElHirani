@@ -627,10 +627,6 @@ section {
   right: -50%;
 }
 
-.bottom-1\/2 {
-  bottom: 50%;
-}
-
 .left-0 {
   left: 0px;
 }
@@ -641,10 +637,6 @@ section {
 
 .right-1\/2 {
   right: 50%;
-}
-
-.right-5 {
-  right: 1.25rem;
 }
 
 .top-0 {
@@ -663,24 +655,28 @@ section {
   top: 1rem;
 }
 
-.top-5 {
-  top: 1.25rem;
-}
-
 .top-7 {
   top: 1.75rem;
-}
-
-.right-96 {
-  right: 24rem;
 }
 
 .bottom-0 {
   bottom: 0px;
 }
 
+.bottom-1\/2 {
+  bottom: 50%;
+}
+
 .top-10 {
   top: 2.5rem;
+}
+
+.top-5 {
+  top: 1.25rem;
+}
+
+.right-5 {
+  right: 1.25rem;
 }
 
 .-z-10 {
@@ -699,10 +695,6 @@ section {
   z-index: 50;
 }
 
-.-z-50 {
-  z-index: -50;
-}
-
 .z-20 {
   z-index: 20;
 }
@@ -710,6 +702,11 @@ section {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .mb-8 {
@@ -756,10 +753,6 @@ section {
   height: 6rem;
 }
 
-.h-full {
-  height: 100%;
-}
-
 .w-1\/2 {
   width: 50%;
 }
@@ -796,6 +789,10 @@ section {
   width: 2rem;
 }
 
+.w-\[95\%\] {
+  width: 95%;
+}
+
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
@@ -803,18 +800,6 @@ section {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[90\%\] {
-  width: 90%;
-}
-
-.w-\[100\%\] {
-  width: 100%;
-}
-
-.w-\[95\%\] {
-  width: 95%;
 }
 
 .w-\[80\%\] {
@@ -895,10 +880,6 @@ section {
   animation: mousebc 1s infinite;
 }
 
-.cursor-pointer {
-  cursor: pointer;
-}
-
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -917,10 +898,6 @@ section {
 
 .items-center {
   align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
 }
 
 .justify-between {
@@ -1012,9 +989,9 @@ section {
   background-color: rgb(17 175 71 / var(--tw-bg-opacity));
 }
 
-.bg-slate-100 {
+.bg-slate-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
 
 .bg-white {
@@ -1022,9 +999,9 @@ section {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-slate-200 {
+.bg-slate-100 {
   --tw-bg-opacity: 1;
-  background-color: rgb(226 232 240 / var(--tw-bg-opacity));
+  background-color: rgb(241 245 249 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-5 {
@@ -1035,16 +1012,16 @@ section {
   --tw-bg-opacity: 0.5;
 }
 
+.bg-opacity-60 {
+  --tw-bg-opacity: 0.6;
+}
+
 .bg-opacity-80 {
   --tw-bg-opacity: 0.8;
 }
 
 .bg-opacity-90 {
   --tw-bg-opacity: 0.9;
-}
-
-.bg-opacity-60 {
-  --tw-bg-opacity: 0.6;
 }
 
 .bg-contact-us-bg {
@@ -1108,11 +1085,6 @@ section {
   padding-right: 1.5rem;
 }
 
-.px-7 {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
-
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -1126,11 +1098,6 @@ section {
 .py-1\.5 {
   padding-top: 0.375rem;
   padding-bottom: 0.375rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .py-2 {
@@ -1168,17 +1135,17 @@ section {
   padding-right: 3rem;
 }
 
+.px-24 {
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .text-justify {
   text-align: justify;
-}
-
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
 .text-lg {
@@ -1445,6 +1412,11 @@ h6 {
     margin-right: 0px;
   }
 
+  .md\:my-32 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
   .md\:mb-16 {
     margin-bottom: 4rem;
   }
@@ -1551,11 +1523,6 @@ h6 {
     padding: 1rem;
   }
 
-  .md\:px-12 {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
   .md\:px-3 {
     padding-left: 0.75rem;
     padding-right: 0.75rem;
@@ -1581,6 +1548,11 @@ h6 {
     padding-bottom: 1rem;
   }
 
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
   .md\:text-start {
     text-align: start;
   }
@@ -1592,11 +1564,6 @@ h6 {
 
   .md\:text-lg {
     font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
-
-  .md\:text-xl {
-    font-size: 1.25rem;
     line-height: 1.75rem;
   }
 
@@ -1624,6 +1591,21 @@ h6 {
 
   .lg\:bottom-0 {
     bottom: 0px;
+  }
+
+  .lg\:my-40 {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+  }
+
+  .lg\:my-36 {
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+  }
+
+  .lg\:my-32 {
+    margin-top: 8rem;
+    margin-bottom: 8rem;
   }
 
   .lg\:mt-20 {
@@ -1681,11 +1663,6 @@ h6 {
     place-content: end;
   }
 
-  .lg\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
   .lg\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
@@ -1697,11 +1674,6 @@ h6 {
 
   .lg\:text-start {
     text-align: start;
-  }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 
   .lg\:text-xl {
