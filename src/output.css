@@ -1587,16 +1587,72 @@ h6 {
   .xl\:right-10 {
     right: 2.5rem;
   }
+
+  .xl\:right-96 {
+    right: 24rem;
+  }
+
+  .xl\:right-80 {
+    right: 20rem;
+  }
+
+  .xl\:right-0 {
+    right: 0px;
+  }
 }
 
 @media (min-width: 1320px) {
   .\32xl\:right-14 {
     right: 3.5rem;
   }
+
+  .\32xl\:right-96 {
+    right: 24rem;
+  }
 }
 
 @media (min-width: 1600px) {
   .\33xl\:right-20 {
     right: 5rem;
+  }
+
+  .\33xl\:right-0 {
+    right: 0px;
+  }
+
+  .\33xl\:right-\[420px\] {
+    right: 420px;
+  }
+
+  .\33xl\:right-\[620px\] {
+    right: 620px;
+  }
+
+  .\33xl\:right-\[220px\] {
+    right: 220px;
+  }
+
+  .\33xl\:right-\[120px\] {
+    right: 120px;
+  }
+
+  .\33xl\:right-\[1020px\] {
+    right: 1020px;
+  }
+
+  .\33xl\:right-\[720px\] {
+    right: 720px;
+  }
+
+  .\33xl\:right-\[820px\] {
+    right: 820px;
+  }
+
+  .\33xl\:right-\[520px\] {
+    right: 520px;
+  }
+
+  .\33xl\:right-\[450px\] {
+    right: 450px;
   }
 }
