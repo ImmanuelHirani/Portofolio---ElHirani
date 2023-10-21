@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="src/output.css" />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>Portofolio | Immanuel - Hirani</title>
   </head>
@@ -43,7 +43,7 @@
     </header>
     <main class="mt-32">
       <section class="hero overflow-hidden">
-        <div class="container grid lg:grid-cols-2 grid-cols-1 gap-2 items-center ">
+        <div class="container grid lg:grid-cols-2 grid-cols-1 gap-2 items-center"  data-aos="fade-down">
           <div class="hero-decs flex flex-col md:gap-6 gap-3 lg:text-start text-center">
             <h2 class="text-Green-saber">Hi, I'm Immanuel Christian Hirani</h2>
             <h1  class="text-white lg:text-justify text-center  md:h-28 h-24">
@@ -119,9 +119,9 @@
       </section>
       <section class="projectShowcase relative" id="project">
         <div class="container text-white">
-          <h2 class="">Selected Project</h2>
+          <h2 class="" data-aos="fade-right">Selected Project</h2>
           <!-- Project -->
-          <div class="project lg:mt-20 md:mt-10 mt-6 flex flex-col md:gap-8 gap-4">
+          <div class="project lg:mt-20 md:mt-10 mt-6 flex flex-col md:gap-8 gap-4" data-aos="fade-right">
             <img src="img/Project-Img/Nerumeru-Project.png" class="w-full" alt="">
             <div class="link  capitalize flex items-center gap-12">
               <div class="folder flex items-center gap-2">
@@ -149,7 +149,7 @@
               </div>
             </div>
           </div>
-          <div class="project lg:mt-20 md:mt-10 mt-6 flex flex-col md:gap-8 gap-4">
+          <div class="project lg:mt-20 md:mt-10 mt-6 flex flex-col md:gap-8 gap-4" data-aos="fade-right">
             <img src="img/Project-Img/Zap-Project.png" class="w-full" alt="">
             <div class="link  capitalize flex items-center gap-12">
               <div class="folder flex items-center gap-2">
@@ -183,7 +183,7 @@
       </section>
       <section class="Skills">
         <div class="container">
-          <h2 class="text-white text-center md:mb-20 mb-14">Currently Skills
+          <h2 class="text-white text-center md:mb-20 mb-14" data-aos="fade-up">Currently Skills
             <hr class="md:border-4 border-2 border-white w-20 md:mt-5 mt-3 mx-auto">
           </h2>
           <div
@@ -193,7 +193,7 @@
               ul.insertAdjacentHTML('afterend', ul.outerHTML);
               ul.nextSibling.setAttribute('aria-hidden', 'true');
           })"
-          class="overflow-hidden w-full inline-flex flex-nowrap  [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
+          class="overflow-hidden inline-flex flex-nowrap  [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]"
       >
           <ul x-ref="logos" class="flex items-center justify-center md:justify-start lg:[&_li]:mx-16 md:[&_li]:mx-8 [&_li]:mx-6 [&_img]:max-w-none animate-infinite-scroll">
               <li>
@@ -222,7 +222,7 @@
         </div>
       </section>
       <section class="contact lg:my-40 md:my-32 my-10 " id="ContactMe">
-        <div class="container rounded-md p-0 text-white relative" style="background: rgb(10,10,10); background: linear-gradient(90deg, rgba(10,10,10,0.9108018207282913) 0%, rgba(9,9,9,1) 100%);">
+        <div data-aos="fade-right" class="container rounded-md p-0 text-white relative" style="background: rgb(10,10,10); background: linear-gradient(90deg, rgba(10,10,10,0.9108018207282913) 0%, rgba(9,9,9,1) 100%);">
           <div class="body md:text-start text-center bg-white bg-opacity-5 p-12 flex flex-col gap-4 py-20">
             <h2>Interested working with me? </h2>
             <p>For business purposes, please contact via email only ,<br> Thank u for visiting my Website .</p>
@@ -264,7 +264,7 @@
       </section>
       <section class="Testimonial  relative overflow-x-hidden ">
         <div class="container md:p-3 p-1.5">
-          <h2 class="text-white text-center md:mb-16 mb-8">What's Our Client Says ? 
+          <h2 class="text-white text-center md:mb-16 mb-8" data-aos="fade-up">What's Our Client Says ? 
             <hr class="md:border-4 border-2 border-white w-20 md:mt-5 mt-3 mx-auto">
           </h2>
           <div class="swiper">
@@ -326,13 +326,13 @@
     <footer class="mt-32">
       <div class="container text-white ">
         <div class="grid md:grid-cols-4 grid-cols-1 md:gap-20 gap-10 ">
-            <div class="bio">
+            <div class="bio"  data-aos="fade-up">
               <h3>Bio - Immanuel</h3>
               <h6 class="3xl:text-lg 2xl:text-base  decs mt-5 text-justify">
                 Passionate and ambitious Junior Developer with strong coding skills. Thrives on challenging projects, delivering exceptional results quickly. Adaptable to new technologies, valuable asset to any team. Ready to make a significant impact in software development.
               </h6>
             </div>
-            <div class="Fun - Fact ">
+            <div class="Fun - Fact"  data-aos="fade-up">
               <h3>Fun - Fact</h3>
               <h6 class="3xl:text-lg 2xl:text-base  decs mt-5 text-justify">
                 Like To sleep but wake up
@@ -341,7 +341,7 @@
                 Been Strugel For success Thank for always beliving in god and always beliving your self
               </h6>
             </div> 
-            <div class="Related Links md:mx-auto">
+            <div class="Related Links md:mx-auto"  data-aos="fade-up">
               <h3>Related Links</h3>
               <h6 class="3xl:text-lg 2xl:text-base flex flex-col gap-4 mt-5">
                 <a href="#">Home</a>
@@ -349,7 +349,7 @@
                 <a href="#">Whatsapp</a>
               </h6>
             </div>
-            <div class="Contact Us md:mx-auto">
+            <div class="Contact Us md:mx-auto"  data-aos="fade-up">
               <h3>Contact Us</h3>
               <h6 class="3xl:text-lg 2xl:text-base flex flex-col gap-4 mt-5">
                 <span class="flex gap-4">
@@ -382,6 +382,10 @@
   <script src="js/nav.js"></script>
   <script src="js/ContactUs.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script>
     var lfw = document.getElementById("left-wing");
     var rtw = document.getElementById("right-wing");
