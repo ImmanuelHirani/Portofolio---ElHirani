@@ -86,6 +86,10 @@
         @apply md:text-3xl text-base font-semibold
     }
 
+    h3 {
+        @apply md:text-2xl text-base font-semibold
+    }
+
     h6 {
         @apply md:text-lg text-sm
     }
