@@ -28,7 +28,7 @@ module.exports = {
 
       animation: {
         mosueBounce: "mousebc 1s infinite",
-        "infinite-scroll": "infinite-scroll 25s linear infinite",
+        "infinite-scroll": "infinite-scroll 10s linear infinite",
       },
 
       fontFamily: {
