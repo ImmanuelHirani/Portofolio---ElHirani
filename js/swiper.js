@@ -1,5 +1,4 @@
 let TestimonialSwiper = new Swiper(".testimonial-Content", {
-  slidesPerView: 1.4,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,
@@ -16,6 +15,11 @@ let TestimonialSwiper = new Swiper(".testimonial-Content", {
   },
 
   breakpoints: {
+    360: {
+      slidesPerView: 1.2,
+      centeredSlides: true,
+    },
+
     600: {
       slidesPerView: 1.2,
       centeredSlides: true,

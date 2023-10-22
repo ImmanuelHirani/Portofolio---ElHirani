@@ -1866,6 +1866,11 @@ h6 {
     right: 24rem;
   }
 
+  .\32xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .\32xl\:grid-cols-4 {
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
@@ -1887,6 +1892,11 @@ h6 {
 
   .\33xl\:right-\[450px\] {
     right: 450px;
+  }
+
+  .\33xl\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .\33xl\:text-lg {
