@@ -40,9 +40,9 @@ module.exports = {
       },
 
       colors: {
-        'Green-saber'  : '#11AF47',
         'Black-storke' : '#3D3C3C',
-        'Black-Nav'    : '#121212'
+        'Black-Nav'    : '#121212',
+        'blue-saber'   : '#00A4E9',
       },
 
       screens: {

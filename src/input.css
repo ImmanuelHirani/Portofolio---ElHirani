@@ -23,15 +23,42 @@
     .container {
         @apply p-3 
     }
-}
-
-@layer components {
 
 }
+
+/* Homepage */
+
+.sun-active {
+    @apply scale-100 md:bottom-24 bottom-20
+}
+
+.moon-active {
+    @apply scale-100 md:bottom-48 bottom-40
+}
+
+.btn-active > svg > path:nth-child(1) {
+    @apply rotate-180  fill-blue-saber stroke-white animate-none
+}
+
+.btn-active > svg > path:nth-child(2) {
+    @apply rotate-180  fill-blue-saber stroke-white animate-none
+}
+
+.btn-active > svg > path:nth-child(3) {
+    @apply rotate-180  stroke-none animate-none
+}
+
+
+
+
+
+
+
+
 
 .Box-Active {
         @apply scale-100 z-10
-    }
+}
     
 .navCont-Active {
     @apply pb-40  bg-Black-Nav 
@@ -40,8 +67,6 @@
 .navLinks-Active {
     @apply opacity-100 translate-y-12 top-1/2 
 }
-
-
 
 .navBurger-Active > svg > path:nth-child(1) {
     @apply rotate-45  translate-x-2.5 text-red-500 
@@ -55,18 +80,19 @@
     @apply -rotate-45 translate-x-2.5 text-red-500 
 }
 
+.left-wing-active {
+    @apply  -translate-x-20 translate-y-20 -rotate-180
+  }
+  .right-wing-active {
+    @apply  translate-x-20 -translate-y-20 rotate-180
+  }
+
+  /* Homepage End */
 
 
 @layer utilities {
 
 
-
-    .left-wing-active {
-      @apply  -translate-x-20 translate-y-20 -rotate-180
-    }
-    .right-wing-active {
-      @apply  translate-x-20 -translate-y-20 rotate-180
-    }
 
     /* .text-stroke  {
         -webkit-text-fill-color: transparent;
