@@ -1,5 +1,5 @@
 let TestimonialSwiper = new Swiper(".testimonial-Content", {
-  slidesPerView: 1,
+  slidesPerView: 1.4,
   autoplay: {
     delay: 2500,
     disableOnInteraction: false,

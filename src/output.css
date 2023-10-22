@@ -713,16 +713,6 @@ section {
   margin-bottom: 2.5rem;
 }
 
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-}
-
 .mb-14 {
   margin-bottom: 3.5rem;
 }
@@ -751,10 +741,6 @@ section {
   margin-top: 1.5rem;
 }
 
-.mt-4 {
-  margin-top: 1rem;
-}
-
 .block {
   display: block;
 }
@@ -771,21 +757,12 @@ section {
   display: grid;
 }
 
-.h-24 {
-  height: 6rem;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
 .h-16 {
   height: 4rem;
+}
+
+.h-24 {
+  height: 6rem;
 }
 
 .w-10 {
@@ -802,10 +779,6 @@ section {
 
 .w-20 {
   width: 5rem;
-}
-
-.w-32 {
-  width: 8rem;
 }
 
 .w-5 {
@@ -847,14 +820,6 @@ section {
 
 .w-full {
   width: 100%;
-}
-
-.w-1\/2 {
-  width: 50%;
-}
-
-.w-24 {
-  width: 6rem;
 }
 
 .grow {
@@ -1106,11 +1071,6 @@ section {
   background-image: url('../img/Project-Img/bg-Contactus.png');
 }
 
-.object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -1125,20 +1085,12 @@ section {
   padding: 0px;
 }
 
-.p-0\.5 {
-  padding: 0.125rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
-}
-
-.p-1\.5 {
-  padding: 0.375rem;
-}
-
 .p-12 {
   padding: 3rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .p-4 {
@@ -1151,10 +1103,6 @@ section {
 
 .p-6 {
   padding: 1.5rem;
-}
-
-.p-2 {
-  padding: 0.5rem;
 }
 
 .px-2 {
@@ -1210,11 +1158,6 @@ section {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
-}
-
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .text-center {
@@ -1345,6 +1288,20 @@ h1 {
 }
 
 @media (min-width: 768px) {
+  h1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+@media (min-width: 1320px) {
   h1 {
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1592,11 +1549,6 @@ h6 {
     margin-right: 0px;
   }
 
-  .md\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .md\:my-32 {
     margin-top: 8rem;
     margin-bottom: 8rem;
@@ -1640,11 +1592,6 @@ h6 {
 
   .md\:h-56 {
     height: 14rem;
-  }
-
-  .md\:h-fit {
-    height: -moz-fit-content;
-    height: fit-content;
   }
 
   .md\:h-full {
@@ -1705,10 +1652,6 @@ h6 {
     transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .md\:flex-row {
     flex-direction: row;
   }
@@ -1747,10 +1690,6 @@ h6 {
 
   .md\:p-2 {
     padding: 0.5rem;
-  }
-
-  .md\:p-3 {
-    padding: 0.75rem;
   }
 
   .md\:px-12 {
@@ -1872,10 +1811,6 @@ h6 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .lg\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
   .lg\:place-content-end {
     place-content: end;
   }
@@ -1907,6 +1842,15 @@ h6 {
   .xl\:right-80 {
     right: 20rem;
   }
+
+  .xl\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .xl\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (min-width: 1320px) {
@@ -1920,6 +1864,10 @@ h6 {
 
   .\32xl\:right-96 {
     right: 24rem;
+  }
+
+  .\32xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .\32xl\:text-base {
