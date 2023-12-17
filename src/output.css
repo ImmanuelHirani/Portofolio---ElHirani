@@ -761,6 +761,10 @@ section {
   margin-left: 1rem;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1068,6 +1072,10 @@ section {
   border-width: 2px;
 }
 
+.border-4 {
+  border-width: 4px;
+}
+
 .border-blue-saber {
   --tw-border-opacity: 1;
   border-color: rgb(0 164 233 / var(--tw-border-opacity));
@@ -1076,6 +1084,11 @@ section {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
 .bg-Black-Nav {
@@ -1338,6 +1351,12 @@ section {
 
 .opacity-70 {
   opacity: 0.7;
+}
+
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .outline-none {
@@ -1934,6 +1953,10 @@ h6 {
 
   .lg\:place-content-end {
     place-content: end;
+  }
+
+  .lg\:gap-8 {
+    gap: 2rem;
   }
 
   .lg\:px-5 {
