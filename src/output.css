@@ -741,6 +741,13 @@ section {
   margin-top: 1.5rem;
 }
 
+.line-clamp-2 {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
 .block {
   display: block;
 }
@@ -820,6 +827,14 @@ section {
 
 .w-full {
   width: 100%;
+}
+
+.max-w-screen-lg {
+  max-width: 1024px;
+}
+
+.max-w-screen-xl {
+  max-width: 1200px;
 }
 
 .grow {
@@ -952,10 +967,6 @@ section {
   justify-content: space-between;
 }
 
-.gap-10 {
-  gap: 2.5rem;
-}
-
 .gap-12 {
   gap: 3rem;
 }
@@ -1034,6 +1045,16 @@ section {
 .bg-Black-Nav {
   --tw-bg-opacity: 1;
   background-color: rgb(18 18 18 / var(--tw-bg-opacity));
+}
+
+.bg-Black-footer {
+  --tw-bg-opacity: 1;
+  background-color: rgb(22 22 22 / var(--tw-bg-opacity));
+}
+
+.bg-White-Project {
+  --tw-bg-opacity: 1;
+  background-color: rgb(246 246 246 / var(--tw-bg-opacity));
 }
 
 .bg-blue-saber {
@@ -1199,6 +1220,10 @@ section {
   text-transform: capitalize;
 }
 
+.normal-case {
+  text-transform: none;
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1209,9 +1234,32 @@ section {
   color: rgb(0 164 233 / var(--tw-text-opacity));
 }
 
+.text-gray-200 {
+  --tw-text-opacity: 1;
+  color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-green-700 {
+  --tw-text-opacity: 1;
+  color: rgb(21 128 61 / var(--tw-text-opacity));
+}
+
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline {
+  text-decoration-line: underline;
+}
+
+.underline-offset-4 {
+  text-underline-offset: 4px;
 }
 
 .caret-blue-saber {
@@ -1458,6 +1506,17 @@ h6 {
 
 /* Homepage End */
 
+/* Project Showcase */
+
+.Desc-Active-Open {
+  overflow: visible;
+  display: block;
+  -webkit-box-orient: horizontal;
+  -webkit-line-clamp: none;
+}
+
+/* Project Showcase end */
+
 .hover\:bg-transparent:hover {
   background-color: transparent;
 }
@@ -1664,10 +1723,6 @@ h6 {
     gap: 3rem;
   }
 
-  .md\:gap-20 {
-    gap: 5rem;
-  }
-
   .md\:gap-4 {
     gap: 1rem;
   }
@@ -1712,6 +1767,11 @@ h6 {
     padding-right: 2rem;
   }
 
+  .md\:py-12 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
@@ -1752,11 +1812,6 @@ h6 {
 
   .lg\:top-2 {
     top: 0.5rem;
-  }
-
-  .lg\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .lg\:my-40 {
@@ -1820,10 +1875,6 @@ h6 {
     padding-right: 1.25rem;
   }
 
-  .lg\:text-justify {
-    text-align: justify;
-  }
-
   .lg\:text-start {
     text-align: start;
   }
@@ -1842,15 +1893,6 @@ h6 {
   .xl\:right-80 {
     right: 20rem;
   }
-
-  .xl\:mx-0 {
-    margin-left: 0px;
-    margin-right: 0px;
-  }
-
-  .xl\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
 }
 
 @media (min-width: 1320px) {
@@ -1865,15 +1907,6 @@ h6 {
   .\32xl\:right-96 {
     right: 24rem;
   }
-
-  .\32xl\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-  }
-
-  .\32xl\:text-base {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
 }
 
 @media (min-width: 1600px) {
@@ -1887,16 +1920,6 @@ h6 {
 
   .\33xl\:right-\[450px\] {
     right: 450px;
-  }
-
-  .\33xl\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .\33xl\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 }
 

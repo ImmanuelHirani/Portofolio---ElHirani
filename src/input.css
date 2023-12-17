@@ -112,3 +112,10 @@
     @apply md:text-lg text-sm;
   }
 }
+
+
+/* Project Showcase */
+.Desc-Active-Open {
+  @apply line-clamp-none
+}
+/* Project Showcase end */

@@ -38,7 +38,9 @@ module.exports = {
       colors: {
         "Black-storke": "#3D3C3C",
         "Black-Nav": "#121212",
+        "Black-footer": "#161616",
         "blue-saber": "#00A4E9",
+        "White-Project": "#F6F6F6"
       },
 
       screens: {
