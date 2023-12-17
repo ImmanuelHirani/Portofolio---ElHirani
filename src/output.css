@@ -741,6 +741,26 @@ section {
   margin-top: 1.5rem;
 }
 
+.ml-20 {
+  margin-left: 5rem;
+}
+
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
+.ml-8 {
+  margin-left: 2rem;
+}
+
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -833,12 +853,16 @@ section {
   max-width: 1024px;
 }
 
-.max-w-screen-xl {
-  max-width: 1200px;
+.max-w-screen-md {
+  max-width: 768px;
 }
 
 .grow {
   flex-grow: 1;
+}
+
+.caption-bottom {
+  caption-side: bottom;
 }
 
 .origin-bottom-left {
@@ -935,6 +959,14 @@ section {
   resize: none;
 }
 
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -1006,6 +1038,10 @@ section {
 
 .gap-y-8 {
   row-gap: 2rem;
+}
+
+.self-center {
+  align-self: center;
 }
 
 .overflow-hidden {
@@ -1189,6 +1225,11 @@ section {
   text-align: justify;
 }
 
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -1252,6 +1293,31 @@ section {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-gray-100 {
+  --tw-text-opacity: 1;
+  color: rgb(243 244 246 / var(--tw-text-opacity));
+}
+
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -1907,6 +1973,10 @@ h6 {
   .\32xl\:right-96 {
     right: 24rem;
   }
+
+  .\32xl\:max-w-screen-lg {
+    max-width: 1024px;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -1920,6 +1990,18 @@ h6 {
 
   .\33xl\:right-\[450px\] {
     right: 450px;
+  }
+
+  .\33xl\:max-w-screen-xl {
+    max-width: 1200px;
+  }
+
+  .\33xl\:max-w-screen-lg {
+    max-width: 1024px;
+  }
+
+  .\33xl\:max-w-screen-md {
+    max-width: 768px;
   }
 }
 
