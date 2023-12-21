@@ -750,6 +750,10 @@ section {
   margin-top: 1.5rem;
 }
 
+.mt-28 {
+  margin-top: 7rem;
+}
+
 .line-clamp-2 {
   overflow: hidden;
   display: -webkit-box;
@@ -1708,6 +1712,10 @@ h6 {
 
   .md\:mt-5 {
     margin-top: 1.25rem;
+  }
+
+  .md\:mt-32 {
+    margin-top: 8rem;
   }
 
   .md\:hidden {
