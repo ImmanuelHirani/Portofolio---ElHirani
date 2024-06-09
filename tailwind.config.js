@@ -37,10 +37,10 @@ module.exports = {
 
       colors: {
         "Black-storke": "#3D3C3C",
-        "Black-Nav": "#121212",
-        "Black-footer": "#161616",
+        "Black-Nav": "#141925",
+        "Black-footer": "#141925",
         "blue-saber": "#00A4E9",
-        "White-Project": "#F6F6F6"
+        "White-Project": "#F6F6F6",
       },
 
       screens: {

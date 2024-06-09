@@ -113,9 +113,8 @@
   }
 }
 
-
 /* Project Showcase */
 .Desc-Active-Open {
-  @apply line-clamp-none
+  @apply line-clamp-none;
 }
 /* Project Showcase end */
