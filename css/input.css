@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "avifan";
+  src: url("/Font/avifan/Avifan DEMO.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "kailsix-regular";
+  src: url("/Font/Kailsix/kailsix-regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "kailsix-italic";
+  src: url("/Font/Kailsix/kailsix-italic.otf") format("opentype");
+}
+
+.logo {
+  @apply font-kailisix_regular;
+  font-feature-settings: "dlig" on, "salt" on;
+  text-transform: capitalize;
+}
+
+.outline {
+  @apply outline-[#E8E0CE];
+}
+button {
+  @apply text-[#E8E0CE];
+}
+
+@layer base {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  a {
+    @apply text-[#E8E0CE] subpixel-antialiased;
+    leading-trim: both;
+    text-edge: cap;
+  }
+
+  h1 {
+    @apply text-[190px] font-avifan;
+    font-feature-settings: "dlig" on, "salt" on;
+    line-height: 168px; /* 88.421% */
+    text-transform: uppercase;
+  }
+
+  h2 {
+    @apply xl:text-8xl text-5xl;
+  }
+
+  h3 {
+    @apply text-5xl;
+  }
+
+  h4 {
+    @apply xl:text-3xl text-xl;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  h5 {
+    @apply xl:text-3xl;
+  }
+
+  h6 {
+    @apply xl:text-base text-sm;
+  }
+
+  body {
+    @apply h-screen bg-[#1E2125] flex flex-col font-kailisix_regular overflow-x-hidden;
+  }
+  section {
+    @apply py-20 my-24;
+  }
+}

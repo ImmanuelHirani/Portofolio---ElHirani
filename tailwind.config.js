@@ -1,21 +1,35 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./**.{html,js}"],
+  content: ["./frontend/**/*.{html,js}"],
   theme: {
     container: {
       center: true,
     },
 
+    screens: {
+      sm: "640px",
+      // => @media (min-width: 640px) { ... }
+
+      md: "680px",
+      // => @media (min-width: 768px) { ... }
+
+      lg: "880px",
+      // => @media (min-width: 1024px) { ... }
+
+      xl: "1370px",
+      // => @media (min-width: 1280px) { ... }
+
+      // "2xl": "1745px",
+      // // => @media (min-width: 1536px) { ... }
+    },
     extend: {
-      backgroundImage: {
-        "contact-us-bg": "url('../img/Project-Img/bg-Contactus.png')",
+      fontFamily: {
+        avifan: ["avifan"],
+        kailisix_regular: ["kailsix-regular"],
+        kailisix_italic: ["kailsix-italic"],
       },
 
       keyframes: {
-        "infinite-scroll": {
-          from: { transform: "translateX(0)" },
-          to: { transform: "translateX(-100%)" },
-        },
         mousebc: {
           "0%, 100%": {
             transform: "translateY(0)",
@@ -28,25 +42,6 @@ module.exports = {
 
       animation: {
         mosueBounce: "mousebc 1s infinite",
-        "infinite-scroll": "infinite-scroll 10s linear infinite",
-      },
-
-      fontFamily: {
-        Poppins: ["Poppins", "sans-serif"],
-      },
-
-      colors: {
-        "Black-storke": "#3D3C3C",
-        "Black-Nav": "#141925",
-        "Black-footer": "#141925",
-        "blue-saber": "#00A4E9",
-        "White-Project": "#F6F6F6",
-      },
-
-      screens: {
-        xl: "1200px",
-        "2xl": "1320px",
-        "3xl": "1600px",
       },
     },
   },
