@@ -4,17 +4,17 @@
 
 @font-face {
   font-family: "avifan";
-  src: url("/Font/avifan/Avifan DEMO.otf") format("opentype");
+  src: url("../Font/avifan/Avifan DEMO.otf") format("opentype");
 }
 
 @font-face {
   font-family: "kailsix-regular";
-  src: url("/Font/Kailsix/kailsix-regular.otf") format("opentype");
+  src: url("../Font/Kailsix/kailsix-regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: "kailsix-italic";
-  src: url("/Font/Kailsix/kailsix-italic.otf") format("opentype");
+  src: url("../Font/Kailsix/kailsix-italic.otf") format("opentype");
 }
 
 .logo {
