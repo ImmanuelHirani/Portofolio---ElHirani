@@ -99,7 +99,7 @@ function adjustAnimations() {
       trigger: "#allProject",
       start: "top 70%",
       end: "top top",
-      markers: false,
+
       scrub: 1,
     },
   });
@@ -129,7 +129,6 @@ function adjustAnimations() {
       trigger: "#allProject",
       start: "top 70%",
       end: "top top",
-      markers: false,
       scrub: 1,
     },
   });
@@ -143,9 +142,8 @@ function adjustAnimations() {
     delay: 0.5,
     scrollTrigger: {
       trigger: ".wrap-project1",
-      start: "900px bottom",
+      start: "600px bottom",
       end: "650px top",
-      markers: false,
       scrub: 1,
     },
   });
@@ -154,3 +152,63 @@ function adjustAnimations() {
 // Call the function on load and resize
 adjustAnimations();
 window.addEventListener("resize", adjustAnimations);
+
+// GSAP animation
+
+var tlS = gsap.timeline();
+
+tlS.from("#Skills .container", {
+  y: 200,
+  duration: 1,
+  delay: 0.5,
+  ease: "power2.in",
+  scrollTrigger: {
+    trigger: "#Skills",
+    start: "top bottom",
+    end: "30% center",
+    scrub: true,
+  },
+});
+
+tlS.from("#Skills .container button", {
+  scale: 0.5,
+  duration: 1,
+  opacity: 0,
+  delay: 0.5,
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#Skills",
+    start: "top bottom",
+    end: "30% center",
+    scrub: true,
+  },
+});
+
+tlS.from(".contact img", {
+  scale: 0,
+  opacity: 0,
+  duration: 1,
+  delay: 0.3,
+  y: 200,
+  scrollTrigger: {
+    trigger: ".contact",
+    start: "top bottom",
+    end: "30% center",
+    scrub: true,
+  },
+});
+
+gsap.from(".quick-link div", {
+  y: 100,
+  opacity: 0,
+  duration: 2,
+  delay: 0.5,
+  ease: "power3.in",
+  scale: 0.5,
+  scrollTrigger: {
+    trigger: "footer",
+    start: "-100% bottom",
+    end: "center 100%",
+    scrub: true,
+  },
+});

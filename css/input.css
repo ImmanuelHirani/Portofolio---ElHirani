@@ -44,6 +44,10 @@ button {
     text-edge: cap;
   }
 
+  * {
+    @apply m-0 p-0 box-border;
+  }
+
   h1 {
     @apply text-[190px] font-avifan;
     font-feature-settings: "dlig" on, "salt" on;

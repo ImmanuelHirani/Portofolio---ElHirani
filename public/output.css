@@ -462,6 +462,12 @@ h1,
   text-edge: cap;
 }
 
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+
 h1 {
   font-family: avifan;
   font-size: 190px;
@@ -686,10 +692,6 @@ section {
   position: relative;
 }
 
-.sticky {
-  position: sticky;
-}
-
 .-bottom-16 {
   bottom: -4rem;
 }
@@ -708,10 +710,6 @@ section {
 
 .right-28 {
   right: 7rem;
-}
-
-.top-0 {
-  top: 0px;
 }
 
 .-z-10 {
@@ -1018,6 +1016,12 @@ section {
 button {
   --tw-text-opacity: 1;
   color: rgb(232 224 206 / var(--tw-text-opacity));
+}
+
+.hover\:scale-110:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .hover\:bg-\[\#00AC2C\]:hover {
