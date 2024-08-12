@@ -12,7 +12,7 @@ function adjustAnimations() {
   tl.from(["#logo", "#menulink a"], {
     y: isDesktop ? -20 : isLaptop ? -15 : -10,
     opacity: 0,
-    ease: "power3.out",
+    ease: "power4.out",
     duration: isDesktop ? 1.5 : isLaptop ? 1.2 : 1,
     delay: isDesktop ? 0.5 : isLaptop ? 0.4 : 0.3,
     stagger: isDesktop ? 0.4 : isLaptop ? 0.3 : 0.2,
@@ -24,7 +24,7 @@ function adjustAnimations() {
     x: isDesktop ? -200 : isLaptop ? -150 : -100,
     opacity: 0,
     skewX: isDesktop ? 10 : isLaptop ? 7 : 5,
-    ease: "power3.out",
+    ease: "power4.out",
     duration: isDesktop ? 1.5 : isLaptop ? 1.2 : 1,
   });
 
@@ -34,7 +34,7 @@ function adjustAnimations() {
       x: isDesktop ? 200 : isLaptop ? 150 : 100,
       opacity: 0,
       skewX: isDesktop ? -10 : isLaptop ? -7 : -5,
-      ease: "power3.out",
+      ease: "power4.out",
       duration: isDesktop ? 1.5 : isLaptop ? 1.2 : 1,
     },
     "-=1"
@@ -57,7 +57,7 @@ function adjustAnimations() {
     {
       x: isDesktop ? 100 : isLaptop ? 75 : 50,
       opacity: 0,
-      ease: "power3.out",
+      ease: "power4.out",
       duration: isDesktop ? 1.5 : isLaptop ? 1.2 : 1,
     },
     "-=0.75"
@@ -68,7 +68,7 @@ function adjustAnimations() {
     {
       y: isDesktop ? 100 : isLaptop ? 75 : 50,
       opacity: 0,
-      ease: "power3.out",
+      ease: "power4.out",
       duration: isDesktop ? 1.5 : isLaptop ? 1.2 : 1,
     },
     "-=0.75"
@@ -81,7 +81,7 @@ function adjustAnimations() {
       scale: isDesktop ? 1.2 : isLaptop ? 1.1 : 1,
       y: isDesktop ? -100 : isLaptop ? -75 : -50,
       opacity: 0,
-      ease: "power3.out",
+      ease: "power4.out",
       duration: isDesktop ? 1.5 : isLaptop ? 1.2 : 1,
     },
     "-=0.75"

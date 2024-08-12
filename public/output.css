@@ -462,6 +462,13 @@ h1,
   text-edge: cap;
 }
 
+li {
+  --tw-text-opacity: 1;
+  color: rgb(232 224 206 / var(--tw-text-opacity));
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+}
+
 * {
   margin: 0px;
   box-sizing: border-box;
@@ -494,15 +501,10 @@ h3 {
   line-height: 1;
 }
 
-h4 {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 @media (min-width: 1370px) {
   h4 {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 }
 
@@ -544,6 +546,10 @@ section {
   margin-bottom: 6rem;
   padding-top: 5rem;
   padding-bottom: 5rem;
+}
+
+footer {
+  margin-top: auto;
 }
 
 *, ::before, ::after {
@@ -720,6 +726,22 @@ section {
   z-index: 20;
 }
 
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
+
+.col-span-4 {
+  grid-column: span 4 / span 4;
+}
+
+.col-span-5 {
+  grid-column: span 5 / span 5;
+}
+
+.col-span-8 {
+  grid-column: span 8 / span 8;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -730,16 +752,44 @@ section {
   margin-bottom: 0px;
 }
 
+.mb-24 {
+  margin-bottom: 6rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .h-16 {
   height: 4rem;
 }
 
+.h-52 {
+  height: 13rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
 .w-16 {
   width: 4rem;
+}
+
+.w-52 {
+  width: 13rem;
 }
 
 .w-\[23\%\] {
@@ -775,6 +825,10 @@ section {
   max-width: 992px;
 }
 
+.grow {
+  flex-grow: 1;
+}
+
 .translate-x-1\/2 {
   --tw-translate-x: 50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -800,6 +854,18 @@ section {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.list-inside {
+  list-style-position: inside;
+}
+
+.list-decimal {
+  list-style-type: decimal;
+}
+
+.grid-cols-8 {
+  grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -868,12 +934,29 @@ section {
   row-gap: 1.5rem;
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-full {
   border-radius: 9999px;
 }
 
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.border-b-\[1px\] {
+  border-bottom-width: 1px;
+}
+
+.border-t-\[1px\] {
+  border-top-width: 1px;
+}
+
+.border-\[\#E8E0CE\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(232 224 206 / var(--tw-border-opacity));
 }
 
 .bg-\[\#54514A\] {
@@ -889,6 +972,11 @@ section {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .p-16 {
@@ -918,12 +1006,21 @@ section {
   padding-bottom: 1rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .pb-20 {
   padding-bottom: 5rem;
 }
 
 .text-center {
   text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 .font-kailisix_italic {
@@ -953,8 +1050,22 @@ section {
   text-transform: capitalize;
 }
 
+.text-green-500 {
+  --tw-text-opacity: 1;
+  color: rgb(34 197 94 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
+}
+
+.underline-offset-4 {
+  text-underline-offset: 4px;
 }
 
 .shadow-xl {
@@ -988,19 +1099,19 @@ section {
 @font-face {
   font-family: "avifan";
 
-  src: url("../Font/avifan/Avifan DEMO.otf") format("opentype");
+  src: url("Font/avifan/Avifan DEMO.otf") format("opentype");
 }
 
 @font-face {
   font-family: "kailsix-regular";
 
-  src: url("../Font/Kailsix/kailsix-regular.otf") format("opentype");
+  src: url("Font/Kailsix/kailsix-regular.otf") format("opentype");
 }
 
 @font-face {
   font-family: "kailsix-italic";
 
-  src: url("../Font/Kailsix/kailsix-italic.otf") format("opentype");
+  src: url("Font/Kailsix/kailsix-italic.otf") format("opentype");
 }
 
 .logo {
@@ -1029,11 +1140,6 @@ button {
   background-color: rgb(0 172 44 / var(--tw-bg-opacity));
 }
 
-.hover\:bg-\[\#013711\]:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(1 55 17 / var(--tw-bg-opacity));
-}
-
 .hover\:bg-\[\#0A63BC\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(10 99 188 / var(--tw-bg-opacity));
@@ -1042,6 +1148,11 @@ button {
 .hover\:bg-\[\#2B3137\]:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(43 49 55 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#40ffc2\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(64 255 194 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-\[\#D62976\]:hover {
