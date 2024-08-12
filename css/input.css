@@ -87,10 +87,18 @@ button {
     @apply h-screen bg-[#1E2125] flex flex-col font-kailisix_regular overflow-x-hidden;
   }
   section {
-    @apply py-20 my-24;
+    @apply py-20 my-20;
   }
 
   footer {
     @apply mt-auto;
   }
+}
+
+.accordion-active > div > svg {
+  @apply rotate-180;
+}
+
+.toastify-active {
+  @apply translate-x-0 visible opacity-100;
 }
