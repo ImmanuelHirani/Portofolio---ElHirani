@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import "tailwindcss"; */
 
 @font-face {
   font-family: "avifan";
@@ -49,7 +50,7 @@ button {
   }
 
   * {
-    @apply m-0 p-0 box-border;
+    @apply box-border p-0 m-0;
   }
 
   h1 {
@@ -60,7 +61,7 @@ button {
   }
 
   h2 {
-    @apply xl:text-8xl text-5xl;
+    @apply text-5xl xl:text-8xl;
   }
 
   h3 {
@@ -80,7 +81,7 @@ button {
   }
 
   h6 {
-    @apply xl:text-base text-sm;
+    @apply text-sm xl:text-base;
   }
 
   body {
@@ -100,5 +101,5 @@ button {
 }
 
 .toastify-active {
-  @apply translate-x-0 visible opacity-100;
+  @apply visible translate-x-0 opacity-100;
 }
